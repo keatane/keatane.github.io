@@ -1,34 +1,35 @@
 <!-- 
   ########################################################################################################################
-  The code of that website is not written in a professional way, just typed some html keywords to make something readable 
+  The code of that website is not written in a professional way, just typed some HTML keywords to make something readable 
   ########################################################################################################################
 -->
 
-<h2> 
-  Kevin Cattaneo
-  >> also called <i>keatane</i>
-</h2>
+<h1> 
+  <a href=".">
+    Kevin Cattaneo
+    <br>
+    >> also called <i>keatane</i>
+  </a>
+</h1>
 
 ## About me
 
 <ul>
-  <li> Computer science student </li>
+  <li> Computer Science student, Italy </li>
+  <li> Languages: Italian (Native), English (B2)
   <li> 🐱 + 🎮 = ❤️ </li>
 </ul>
 
 ## Milestones
 
 <ul>
-  <li> 27/07/2023 -- Bachelor degree from <a href="unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font>:flag </li>
+  <li> 27/07/2023 -- Bachelor degree in Computer Science, <a href="unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font> </li>
+  <li> current -- Master degree in Computer Science
 </ul>
 
-## Known languages
+## Known languages & software 
 
-[![My Skills](https://skillicons.dev/icons?i=python,gg,html,gg,cpp,gg,php)](https://skillicons.dev)
-
-## Known software
-
-[![My Skills](https://skillicons.dev/icons?i=blender,gg,unity,gg,discord,gg,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,gg,html,gg,cpp,gg,php,gg,blender,gg,unity,gg,discord,gg,vscode)](https://skillicons.dev)
 
 ## Projects
 
@@ -37,6 +38,13 @@ In collaboration with <a href="https://ihcsof.github.io/lorenzofoschi/">Lorenzo 
 <ul>
   <li> <a href="https://play.google.com/store/apps/details?id=com.Uot_Company.LatharGame"> Lathar on Play Store </a> </li>
   <li> <a href="https://play.unity.com/mg/other/webgl-builds-253106"> Lathar on browser </a> </li>
+</ul>
+
+## Find me
+<ul>
+  <li> <a href="https://github.com/keatane">Github profile </a> </li>
+  <li> <a href="https://www.instagram.com/kevin_levin33/">Instagram </a> </li>
+  <li> <a href="https://www.deviantart.com/kyukographics">DeviantArt </a></li>
 </ul>
 
 <br>
