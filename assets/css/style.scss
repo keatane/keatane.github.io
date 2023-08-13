@@ -1,13 +1,10 @@
 ---
 ---
 
-#a-title {
-  color: red;
-}
-
 @import "{{ site.theme }}";
 
 h1 {
+  padding-top: 20%;
   color: cyan;
 }
 
