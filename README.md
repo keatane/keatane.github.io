@@ -1,10 +1,18 @@
-# keatane
+<!-- 
+  ########################################################################################################################
+  The code of that website is not written in a professional way, just typed some html keywords to make something readable 
+  ########################################################################################################################
+-->
 
-## Who am I?
+# Kevin Cattaneo
+# >> also called <i>keatane</i>
+
+## About me
 
 <ul>
   <li> Computer science student </li>
-  <li> Bachelor degree from University of Genoa, Italy </li>
+  <li> Bachelor degree from University of Genoa, <font color="green">It</font>a<font color="red">ly</font> </li>
+  <li> I love cats and videogames</li>
 </ul>
 
 ## Known languages
@@ -14,3 +22,12 @@
 ## Known software
 
 [![My Skills](https://skillicons.dev/icons?i=blender,gg,unity,gg,discord,gg,vscode)](https://skillicons.dev)
+
+## Projects
+
+### Lathar Game
+In collaboration with <a href="https://ihcsof.github.io/lorenzofoschi/">Lorenzo Foschi </a>
+<ul>
+  <li> <a href="https://play.google.com/store/apps/details?id=com.Uot_Company.LatharGame"> Lathar on Play Store </a> </li>
+  <li> <a href="https://play.unity.com/mg/other/webgl-builds-253106"> Lathar on browser </a> </li>
+</ul>
