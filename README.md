@@ -19,7 +19,7 @@
 ## Milestones
 
 <ul>
-  <li> 27/07/2023 -- Bachelor degree in Computer Science, <a href="[unige.it](https://unige.it/)">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font> </li>
+  <li> 27/07/2023 -- Bachelor degree in Computer Science, <a href="https://unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font> </li>
   <li> <i>current</i> -- Master degree in Computer Science </li>
 </ul>
 
