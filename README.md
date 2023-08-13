@@ -4,15 +4,17 @@
   ########################################################################################################################
 -->
 
-# Kevin Cattaneo
-# >> also called <i>keatane</i>
+<h2> 
+  Kevin Cattaneo
+  >> also called <i>keatane</i>
+</h2>
 
 ## About me
 
 <ul>
   <li> Computer science student </li>
-  <li> Bachelor degree from University of Genoa, <font color="green">It</font>a<font color="red">ly</font> </li>
-  <li> I love cats and videogames</li>
+  <li> Bachelor degree from <a href="unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font> </li>
+  <li> Cats + videogames = :heart: </li>
 </ul>
 
 ## Known languages
