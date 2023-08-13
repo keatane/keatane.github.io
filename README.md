@@ -13,4 +13,4 @@
 
 ## Known software
 
-[![My Skills](https://skillicons.dev/icons?i=blender,gg,unity,gg,discord)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=blender,gg,unity,gg,discord,gg,vscode)](https://skillicons.dev)
