@@ -5,11 +5,7 @@
 -->
 
 <h1> 
-  <a href=".">
-    Kevin Cattaneo
-    <br>
-    >> also called <i>keatane</i>
-  </a>
+    Kevin Cattaneo, <i>keatane</i>
 </h1>
 
 ## About me
