@@ -1,6 +1,10 @@
 ---
 ---
 
+site.title {
+  color: red;
+}
+
 @import "{{ site.theme }}";
 
 h1 {
