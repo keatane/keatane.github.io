@@ -3,14 +3,14 @@
 
 @import "{{ site.theme }}";
 
-body {
-  background-color: blue;
-}
-
 h1 {
-  color: red;
+  color: cyan;
 }
 
-#a-title {
+h2 {
+  color: cyan;
+}
+
+title {
   color: red;
 }
