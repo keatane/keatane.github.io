@@ -1,3 +1,11 @@
 # keatane
 
-<a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+### Who am I?
+
+<ul>
+  <o> Computer science student </o>
+  <o> Bachelor degree from University of Genoa </o>
+</ul>
+
+### Languages
+
