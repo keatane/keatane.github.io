@@ -13,8 +13,13 @@
 
 <ul>
   <li> Computer science student </li>
-  <li> Bachelor degree from <a href="unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font> </li>
-  <li> Cats + videogames = :heart: </li>
+  <li> 🐱 + 🎮 = ❤️ </li>
+</ul>
+
+## Milestones
+
+<ul>
+  <li> 27/07/2023 -- Bachelor degree from <a href="unige.it">University of Genoa</a>, <font color="green">It</font>a<font color="red">ly</font>:flag </li>
 </ul>
 
 ## Known languages
@@ -33,3 +38,6 @@ In collaboration with <a href="https://ihcsof.github.io/lorenzofoschi/">Lorenzo 
   <li> <a href="https://play.google.com/store/apps/details?id=com.Uot_Company.LatharGame"> Lathar on Play Store </a> </li>
   <li> <a href="https://play.unity.com/mg/other/webgl-builds-253106"> Lathar on browser </a> </li>
 </ul>
+
+<br>
+<br>
