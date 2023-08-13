@@ -12,7 +12,7 @@
 
 <ul>
   <li> Computer Science student, Italy </li>
-  <li> Languages: Italian (Native), English (B2)
+  <li> Languages: Italian (Native), English (B2) </li>
   <li> 🐱 + 🎮 = ❤️ </li>
 </ul>
 
