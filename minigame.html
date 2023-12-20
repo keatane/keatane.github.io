@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Minigame</title>
+    <link rel="stylesheet" href="mstyle.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Guess the Number Minigame</h1>
+        <p>Try to guess the correct number between 1 and 10!</p>
+        <div id="output"></div>
+        <input type="number" id="guess" placeholder="Enter your guess" min="1" max="10" required>
+        <button onclick="checkGuess()">Submit Guess</button>
+    </div>
+
+    <script>
+        // Generate a random number between 1 and 10
+        const secretNumber = Math.floor(Math.random() * 10) + 1;
+        let attempts = 0;
+
+        function checkGuess() {
+            const guessInput = document.getElementById("guess");
+            const outputDiv = document.getElementById("output");
+
+            // Get the user's guess
+            const userGuess = parseInt(guessInput.value);
+
+            // Check if the guess is correct
+            if (userGuess === secretNumber) {
+                outputDiv.innerHTML = `Congratulations! You guessed the correct number in ${attempts} attempts.`;
+                outputDiv.style.color = "#008000"; // Green color for success
+                guessInput.disabled = true;
+            } else {
+                attempts++;
+                outputDiv.innerHTML = `Wrong guess! Try again.`;
+                outputDiv.style.color = "#ff0000"; // Red color for wrong guess
+                guessInput.value = ""; // Clear the input field
+            }
+        }
+    </script>
+
+</body>
+</html>
