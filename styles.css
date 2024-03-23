@@ -51,8 +51,8 @@ header p {
 .projects,
 .find-me,
 .milestones,
-.minigame 
-.my-wallpaper
+.minigame,
+.my-wallpaper,
 .badges{
     padding: 50px 0;
 }
@@ -63,7 +63,7 @@ header p {
 .find-me h2,
 .milestones h2,
 .minigame h2,
-.my-wallpaper h2 
+.my-wallpaper h2,
 .badges h2 {
     color: #39f12c;
     border-bottom: 2px solid #39f12c; /* Darker blue border */
