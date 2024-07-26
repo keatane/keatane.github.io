@@ -3,21 +3,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1a2229; /* Darker blue background for better contrast */
+    background-color: #1a2229;
     color: #fff;
+}
+
+header {
+    background-color: #12171d;
+    color: #39f12c;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 10px 0;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
-}
-
-header {
-    background-color: #12171d; /* Darker blue header background */
-    color: #39f12c;
-    text-align: center;
-    padding: 40px 0;
 }
 
 .profile-image {
@@ -37,15 +46,6 @@ header {
     border-radius: 50%;
 }
 
-header h1 {
-    margin: 10px 0;
-    font-size: 2em;
-}
-
-header p {
-    margin: 10px 0;
-}
-
 .about-me,
 .skills,
 .projects,
@@ -54,7 +54,7 @@ header p {
 .minigame,
 .my-wallpaper,
 .badges{
-    padding: 50px 0;
+    padding: 10px 20px;
 }
 
 .about-me h2,
@@ -66,26 +66,21 @@ header p {
 .my-wallpaper h2,
 .badges h2 {
     color: #39f12c;
-    border-bottom: 2px solid #39f12c; /* Darker blue border */
+    border-bottom: 2px solid #39f12c;
     padding-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 ul li {
-    display: inline-block;
-    margin-right: 10px;
-    background-color: #12171d; /* Darker blue background for skills */
+    background-color: #12171d;
     color: #fff;
+    display: inline-block;
+    margin: 5px;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 footer {
-    background-color: #3e505e; /* Darker blue footer background */
+    background-color: #3e505e;
     color: #39f12c;
     text-align: center;
     padding: 10px 0;
@@ -102,28 +97,25 @@ footer a {
 
 .social-icons {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .social-icons a {
     display: inline-block;
-    margin: 0 105px;
-    transition: transform 0.3s ease-in-out;
+    margin: 0 10px;
 }
 
 .social-icons img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    height: 60px;
 }
+
 
 .social-icons a:hover {
     transform: scale(1.2);
 }
 
 .navbar {
-    background-color: #3e505e; /* Darker blue navbar background */
+    background-color: #3e505e;
     padding: 10px 0;
     text-align: center;
 }
@@ -159,7 +151,7 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: #d77d00; /* Google Blue */
+    color: #d77d00;
 }
 
 .wallpaper-image {
@@ -172,7 +164,12 @@ a:hover {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 8px; /* Add border-radius for a rounded corner effect */
+    border-radius: 8px;
+}
+
+.badges-container {
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 
@@ -194,7 +191,7 @@ a:hover {
     }
 
     .navbar li {
-        margin-bottom: 10px;
+        padding: 10px;
     }
 
     .menu-toggle {
@@ -206,14 +203,13 @@ a:hover {
         cursor: pointer;
     }
     
-    /* Center the menu items */
     .navbar ul {
         text-align: center;
     }
     
     .navbar li {
         display: inline-block;
-        margin: 0 10px;
+        margin: 15px 15px;
     }
 }
 
@@ -226,15 +222,10 @@ a:hover {
     }
 
     .navbar li {
-        margin: 0 15px;
+        margin: 15px 15px;
     }
 
     .menu-toggle {
         display: none;
     }
-}
-
-/* Hide menu button on larger screens */
-@media only screen and (min-width: 601px) {
-    
 }
