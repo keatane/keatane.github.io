@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Instagram, Shield, Trophy, ExternalLink, Gamepad2, Mail, Terminal, Briefcase, Languages } from 'lucide-react';
 import ScrollToTop from './ScrollToTop';
-import kevinAvatar from './assets/kevin.png';
+import kevinAvatar from './assets/kevin.webp';
 
 const Portfolio = () => {
   return (
@@ -134,10 +134,26 @@ const Portfolio = () => {
       <footer className="px-6 py-20 border-t border-white/5 text-center">
         <p className="font-serif text-xl text-slate-400 mb-8 italic">Reach out to me at:</p>
         <div className="flex justify-center gap-10 mb-12">
-          <SocialIcon icon={<Github />} link="https://github.com/keatane" />
-          <SocialIcon icon={<Linkedin />} link="https://it.linkedin.com/in/kevin-cattaneo-3b5a221bb" />
-          <SocialIcon icon={<Instagram />} link="https://www.instagram.com/kevin_levin33/" />
-          <SocialIcon icon={<Mail />} link="mailto:slaw-woozy-maggot@duck.com" />
+          <SocialIcon
+            aria-label="Visit Kevin's GitHub Profile"
+            icon={<Github />}
+            link="https://github.com/keatane"
+          />
+          <SocialIcon
+            aria-label="Connect with Kevin on LinkedIn"
+            icon={<Linkedin />}
+            link="https://it.linkedin.com/in/kevin-cattaneo-3b5a221bb"
+          />
+          <SocialIcon
+            aria-label="Follow Kevin on Instagram"
+            icon={<Instagram />}
+            link="https://www.instagram.com/kevin_levin33/"
+          />
+          <SocialIcon
+            aria-label="Send an Email to Kevin"
+            icon={<Mail />}
+            link="mailto:slaw-woozy-maggot@duck.com"
+          />
         </div>
         <p className="text-xs font-mono text-slate-600 uppercase tracking-widest">© 2026 Kevin Cattaneo</p>
       </footer>
@@ -198,8 +214,8 @@ const ProjectCard = ({ title, platform, desc, link }) => (
   </a>
 );
 
-const SocialIcon = ({ icon, link }) => (
-  <a href={link} className="text-slate-500 hover:text-white hover:scale-110 transition-all">
+const SocialIcon = ({ icon, link, ...props }) => (
+  <a href={link} {...props} className="text-slate-500 hover:text-white hover:scale-110 transition-all">
     {React.cloneElement(icon, { size: 28 })}
   </a>
 );
