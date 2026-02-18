@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Instagram, Shield, Trophy, ExternalLink, Gamepad2, Mail, Terminal, Briefcase, Languages } from 'lucide-react';
+import { Github, Linkedin, Shield, Trophy, ExternalLink, Gamepad2, Terminal, Briefcase, Languages } from 'lucide-react';
 import ScrollToTop from './ScrollToTop';
 import kevinAvatar from './assets/kevin.webp';
 
@@ -25,7 +25,7 @@ const Portfolio = () => {
               <h1 className="text-6xl md:text-8xl font-serif font-bold text-white tracking-tight leading-[0.9] mb-4">
                 Kevin Cattaneo
               </h1>
-              <p className="text-xl font-mono text-slate-500 italic">Cyber Security Consultant - SOC Analyst</p>
+              <p className="text-xl font-mono text-slate-500 italic">Cyber Security Consultant - SOC L2 Analyst</p>
             </div>
           </div>
           <p className="text-2xl md:text-3xl text-slate-400 max-w-3xl font-serif italic leading-relaxed">
@@ -46,7 +46,7 @@ const Portfolio = () => {
               company="Spike Reply"
               role="Cyber Security Consultant (SOC L2)"
               period="Oct 2025 - Present"
-              description="Responding to security incidents as a SOC analyst by monitoring alarms and security events in real-time. Managing corporate and ICS devices using SIEM tools like QRadar, Microsoft Defender, and Microsoft Sentinel. Collaborating with threat intelligence teams to tune rules and prevent potential threats."
+              description="Responding to security incidents as a SOC L2 analyst by monitoring alarms and security events in real-time. Managing corporate and ICS devices using SIEM tools like QRadar, Microsoft Defender, and Microsoft Sentinel. Collaborating with threat intelligence teams to tune rules and prevent potential threats."
               tags={['Incident Response', 'Threat Analysis', 'QRadar', 'Azure Sentinel', 'ICS Security']}
             />
 
@@ -143,16 +143,6 @@ const Portfolio = () => {
             aria-label="Connect with Kevin on LinkedIn"
             icon={<Linkedin />}
             link="https://it.linkedin.com/in/kevin-cattaneo-3b5a221bb"
-          />
-          <SocialIcon
-            aria-label="Follow Kevin on Instagram"
-            icon={<Instagram />}
-            link="https://www.instagram.com/kevin_levin33/"
-          />
-          <SocialIcon
-            aria-label="Send an Email to Kevin"
-            icon={<Mail />}
-            link="mailto:slaw-woozy-maggot@duck.com"
           />
         </div>
         <p className="text-xs font-mono text-slate-600 uppercase tracking-widest">© 2026 Kevin Cattaneo</p>
