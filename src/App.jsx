@@ -135,6 +135,7 @@ const Portfolio = () => {
               <span className="text-xs font-mono text-cyan-600">Feb 2026</span>
               <h3 className="text-2xl font-serif text-white mt-2">SC-200: Microsoft Security Operations Analyst</h3>
               <p className="text-slate-400 mt-1 mb-4">Microsoft</p>
+              <p className="text-slate-400 mt-1 mb-4">ID: DA350BFBE17F959D</p>
             </div>
           </div>
         </div>
