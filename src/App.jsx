@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Shield, Trophy, ExternalLink, Gamepad2, Terminal, Briefcase, Languages } from 'lucide-react';
+import { Github, Linkedin, Shield, Trophy, Paperclip, ExternalLink, Gamepad2, Terminal, Briefcase, Languages } from 'lucide-react';
 import ScrollToTop from './ScrollToTop';
 import kevinAvatar from './assets/kevin.webp';
 
@@ -126,6 +126,16 @@ const Portfolio = () => {
               desc="Arcade videogame app (mobile and browser) developed on the plot of Lathar (book by Lorenzo Foschi)."
               link="https://play.google.com/store/apps/details?id=com.Uot_Company.LatharGame"
             />
+          </div>
+        </div>
+        <div className="max-w-5xl mx-auto mt-16">
+          <h2 className="text-sm font-mono text-cyan-500 mb-12 uppercase tracking-widest">Certifications</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="p-8 border border-white/5 bg-gradient-to-br from-white/[0.02] to-transparent rounded-2xl">
+              <span className="text-xs font-mono text-cyan-600">Feb 2026</span>
+              <h3 className="text-2xl font-serif text-white mt-2">SC-200: Microsoft Security Operations Analyst</h3>
+              <p className="text-slate-400 mt-1 mb-4">Microsoft</p>
+            </div>
           </div>
         </div>
       </section>
