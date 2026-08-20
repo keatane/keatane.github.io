@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div className="min-h-screen bg-[#050505] text-slate-300 font-sans selection:bg-cyan-500/30">
 
       {/* 1. HERO SECTION */}
-      <section className="relative px-6 pt-32 pb-24 lg:px-24 overflow-hidden">
+      <section className="relative px-6 pt-24 pb-24 lg:px-24 overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-900/10 blur-[120px] rounded-full -z-10" />
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-8 mb-12">
@@ -114,6 +114,12 @@ const Portfolio = () => {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-sm font-mono text-cyan-500 mb-12 uppercase tracking-widest">Featured Projects</h2>
           <div className="grid md:grid-cols-2 gap-8">
+            <ProjectCard
+              title="Cyber Blog"
+              platform="Blog"
+              desc="Deeper insights into worldwide cybersecurity events."
+              link="https://keatane.github.io/cyber-blog/"
+            />
             <ProjectCard
               title="Fight Simulator"
               platform="Steam"
