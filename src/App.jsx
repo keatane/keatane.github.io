@@ -138,6 +138,11 @@ const Portfolio = () => {
           <h2 className="text-sm font-mono text-cyan-500 mb-12 uppercase tracking-widest">Certifications</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-8 border border-white/5 bg-gradient-to-br from-white/[0.02] to-transparent rounded-2xl">
+              <span className="text-xs font-mono text-cyan-600">Jul 2026</span>
+              <h3 className="text-2xl font-serif text-white mt-2">Centrix Power User Learning Path</h3>
+              <p className="text-slate-400 mt-1 mb-4">Armis</p>
+            </div>
+            <div className="p-8 border border-white/5 bg-gradient-to-br from-white/[0.02] to-transparent rounded-2xl">
               <span className="text-xs font-mono text-cyan-600">Feb 2026</span>
               <h3 className="text-2xl font-serif text-white mt-2">SC-200: Microsoft Security Operations Analyst</h3>
               <p className="text-slate-400 mt-1 mb-4">Microsoft</p>
